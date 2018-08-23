@@ -1,0 +1,39 @@
+
+public class SumRecursion {
+	public static int total = 0;
+
+	public static void main(String[] args) {
+	
+		System.out.println("At Start: total " + total);
+		sumRecursion(0);
+		System.out.println("At End:  total " + total);
+
+	}
+
+	private static void sumRecursion(int n) {
+		n += 1;
+		total += 1;
+		System.out.println("n " + n + " total " + total);
+		if (total < 3) {
+			sumRecursion(n);
+		//	System.out.println("inside if n " + n + " total " + total);
+		}
+		System.out.println("end n " + n  + " total " + total);
+	//	System.out.println("");
+		
+	}
+
+}
+
+/*
+ *
+At Start: total 0
+n 1 total 1
+n 2 total 2
+n 3 total 3
+end n 3 total 3
+end n 2 total 3
+end n 1 total 3
+At End:  total 3
+
+*/
