@@ -16,10 +16,8 @@ public class SumRecursion {
 		System.out.println("n " + n + " total " + total);
 		if (total < 3) {
 			sumRecursion(n);
-		//	System.out.println("inside if n " + n + " total " + total);
 		}
 		System.out.println("end n " + n  + " total " + total);
-	//	System.out.println("");
 		
 	}
 
@@ -36,4 +34,6 @@ end n 2 total 3
 end n 1 total 3
 At End:  total 3
 
+total is initialized outside the function
+'n' is initialized in the function
 */
