@@ -26,12 +26,12 @@ public class SumRecursion {
 /*
  *
 At Start: total 0
-n 1 total 1
-n 2 total 2
-n 3 total 3
-end n 3 total 3
-end n 2 total 3
-end n 1 total 3
+n 1 total 1			memory block 1
+n 2 total 2			memory block 2
+n 3 total 3			memory block 3
+end n 3 total 3		release memory block 3
+end n 2 total 3		release memory block 2
+end n 1 total 3		release memory block 1
 At End:  total 3
 
 total is initialized outside the function
