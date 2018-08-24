@@ -32,3 +32,10 @@ public class RecursionAndInteration {
 		return total;
 	}
 }
+
+/*
+ *
+Sum of 17 integers using recursion is 153
+Sum of n 17 integers using FOR/NEXT is 153
+using just math (n*(n+1))/2) 153
+*/
