@@ -7,6 +7,8 @@ public class RecursionAndInteration {
 		System.out.println("Sum of " + n + " integers using recursion is " + sumRecursion(n));
 		
 		System.out.println("Sum of n " + n + " integers using FOR/NEXT is " + sumInteration(n));
+		
+		System.out.println("using just math (n*(n+1))/2) " + (n*(n+1))/2);
 
 	}
 
