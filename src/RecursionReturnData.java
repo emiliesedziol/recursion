@@ -28,9 +28,6 @@ public class RecursionReturnData {
 			System.out.println("Return n " + n + " total " + total);
 			return total;
 		}
-
-
-
 }
 
 /*
