@@ -11,10 +11,17 @@ public class Fibonacci {
 
 		long r;
 		
-		for (int i = 0; i < 100; i++ ) {
+		for (int i = 0; i < 10; i++ ) {
+			// 10 iterations works
+			// 100 iterations really slows down the system
+			// eventually you could take a system down if the # is large enough
 			number_of_calls = 0;
-			r = fibonacciRecursion(i);
-			System.out.println("i " + i + " r " + r + " number_of_calls " + number_of_calls );
+			System.out.println(" before recursion number_of_calls " + number_of_calls);
+		//	System.out.println("i " + i + " fibonacciRecursion(i) " + fibonacciRecursion(i) + " number_of_calls " + number_of_calls );
+			System.out.println("i " + i + " number_of_calls " + number_of_calls + " fibonacciRecursion(i) " + fibonacciRecursion(i));
+			System.out.println(" after recursion number_of_calls " + number_of_calls);
+		//	r = fibonacciRecursion(i);
+		//	System.out.println("i " + i + " r " + r + " number_of_calls " + number_of_calls );
 		}
 		System.out.println("");
 		int s;
